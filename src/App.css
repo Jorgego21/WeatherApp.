@@ -1,12 +1,74 @@
+
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
+  align-self: center;
+
+  background-image: url(https://services.meteored.com/img/article/efectos-domino-creados-por-los-oceanos-que-ya-cambian-el-clima-global-319551-1_1024.jpg);
+  background-position: center;
+  background-size: cover;
+  
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*margin-bottom: 6.81rem;*/
+
+  
+
+.app-clima{
+
+  padding: 20px 60px 20px 60px;
+  margin-top: 4rem;
+  margin-bottom: 6.81rem;
+  box-shadow: 2px 2px 8px rgb(126, 124, 124);
+  border-radius: 10px;
+  background-color: rgb(231, 225, 225);
+  opacity: .8;
+  width: 450px;
+  
 }
 
+.gnere{
+  display: flex;
+  justify-content:space-around;
+}
+
+
+.icon{
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  margin-right: 5rem;
+ 
+}
+
+.icon img{
+  width: 200px;
+  height: 200px;
+}
+
+.info-temp h2 h3{
+  
+}
+
+.btn{
+  border-radius: 70px; /* Esquinas redondeadas */
+      background: rgb(120, 120, 228);
+      text-transform: uppercase; /* Mayúsculas */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+     
+     
+      cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
